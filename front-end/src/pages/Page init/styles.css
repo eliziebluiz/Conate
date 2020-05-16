@@ -1,0 +1,105 @@
+.page-container{
+    width: 100%;
+    max-width: 1020px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.page-container section.page {
+  position: absolute;
+  align-content:center;
+  justify-content: center;
+  width: 265px;
+  height: 293px;
+  top: 10px;
+  align-items: center;
+  display: flex;
+  left:363.5px;
+}
+
+.page-container p{
+  position: absolute;
+  color: #0AA0DB;
+  align-content: center;
+  top: 300px;
+  font-size: 20px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.page-container h1{
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  top: 400px;
+  left: 363.5px;
+  font-size: 40px;
+}
+
+
+.page-container section.hospital img{
+  position: absolute;
+  width: 150px;
+  height: 119.46px;
+  left: 160px;
+  top: 490px;
+}
+
+.page-container section.logo img{
+  position: absolute;
+  width: 150px;
+  height: 119.46px;
+  left: 650px;
+  top: 490px;
+}
+
+.link-hospital{
+  position: absolute;
+  height: 60px;
+  width: 456px; 
+  left: 5px;
+  top: 600px;
+  background: #0AA0DB;
+  border:0;
+  border-radius: 8px;
+  color:#ffff;
+  font-weight: 700;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter 0.2s;
+}
+
+.link-hospital:hover{ 
+  filter: brightness(90%);
+}
+
+.link-cola{
+  position: absolute;
+  height: 60px;
+  width: 456px; 
+  left: 500px;
+  top: 600px;
+  background: #0AA0DB;
+  border:0;
+  border-radius: 8px;
+  color:#ffff;
+  font-weight: 700;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter 0.2s;
+}
+
+.link-cola:hover{ 
+  filter: brightness(90%);
+}
